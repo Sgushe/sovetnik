@@ -43,8 +43,12 @@ margin: 0; padding: 0; text-indent: 10px;
 padding: 0px;
 }
  
-#accordion-html5{clear: both; margin-top: 20px;}
-details summary::-webkit-details-marker{display: none;}
+accordion-html5{clear: both; margin-top: 20px;}
+summary::-webkit-details-marker{display:none;}
+summary::marker{display:none;}
+summary{list-style:none}
+
+
 
 h3 {
     margin: 1em 0 .6em 0;
